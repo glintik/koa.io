@@ -1,25 +1,37 @@
 {
-  "name": "koa.io",
-  "version": "0.0.3",
-  "description": "realtime web framework combine koa and socket.io",
-  "main": "lib/application.js",
-  "scripts": {
-    "test": "gulp test --harmony",
-    "test-cov": "gulp test-cov --harmony",
-    "watch": "gulp watch --harmony"
+  "_from": "github:glintik/koa.io",
+  "_id": "koa.io@0.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-1C0RAoyv0tHaM+eCMz09WUO7SwQ=",
+  "_location": "/koa.io",
+  "_phantomChildren": {
+    "base64-url": "1.2.0",
+    "copy-to": "2.0.1"
   },
-  "keywords": [
-    "koa",
-    "socket.io",
-    "session",
-    "middleware",
-    "realtime"
+  "_requested": {
+    "type": "git",
+    "raw": "github:glintik/koa.io",
+    "rawSpec": "github:glintik/koa.io",
+    "saveSpec": "github:glintik/koa.io",
+    "fetchSpec": null,
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
+  "_resolved": "github:glintik/koa.io#5ff49edb6891d8747b56f17311f253d5a03d4712",
+  "_spec": "github:glintik/koa.io",
+  "_where": "/Users/cub/Data/work/mekarik/backend",
   "author": {
     "name": "dead-horse",
     "email": "dead_horse@qq.com",
     "url": "http://deadhorse.me"
   },
+  "bugs": {
+    "url": "https://github.com/koajs/koa.io/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Ari Porad",
@@ -27,22 +39,19 @@
       "url": "http://ariporad.com"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:koajs/koa.io"
-  },
-  "license": "MIT",
   "dependencies": {
-    "co": "4.6.0",
-    "cookies": "0.5.1",
-    "debug": "2.2.0",
-    "delegates": "0.1.0",
-    "koa": "1.1.1",
-    "koa-compose": "2.3.0",
-    "koa-generic-session": "1.9.2",
-    "parseurl": "1.3.0",
-    "socket.io": "1.3.7"
+    "co": "^4.6.0",
+    "cookies": "^0.5.1",
+    "debug": "^2.6.8",
+    "delegates": "^0.1.0",
+    "koa": "^1.4.0",
+    "koa-compose": "^2.5.1",
+    "koa-generic-session": "^1.11.6",
+    "parseurl": "^1.3.1",
+    "socket.io": "^2.0.3"
   },
+  "deprecated": false,
+  "description": "realtime web framework combine koa and socket.io",
   "devDependencies": {
     "babel-eslint": "4.1.3",
     "eslint-config-airbnb": "0.0.8",
@@ -60,10 +69,31 @@
     "mocha": "2.3.3",
     "pedding": "1.0.0",
     "should": "7.1.1",
-    "socket.io-client": "1.3.7",
+    "socket.io-client": "^2.0.3",
     "supertest": "1.1.0"
   },
   "engine": {
     "node": ">=0.11"
-  }
+  },
+  "homepage": "https://github.com/koajs/koa.io#readme",
+  "keywords": [
+    "koa",
+    "socket.io",
+    "session",
+    "middleware",
+    "realtime"
+  ],
+  "license": "MIT",
+  "main": "lib/application.js",
+  "name": "koa.io",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koajs/koa.io.git"
+  },
+  "scripts": {
+    "test": "gulp test --harmony",
+    "test-cov": "gulp test-cov --harmony",
+    "watch": "gulp watch --harmony"
+  },
+  "version": "0.0.4"
 }
