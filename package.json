@@ -1,6 +1,6 @@
 {
   "_from": "github:glintik/koa.io",
-  "_id": "koa.io@0.0.4",
+  "_id": "koa.io@0.0.5",
   "_inBundle": false,
   "_integrity": "sha1-1C0RAoyv0tHaM+eCMz09WUO7SwQ=",
   "_location": "/koa.io",
@@ -95,5 +95,5 @@
     "test-cov": "gulp test-cov --harmony",
     "watch": "gulp watch --harmony"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
